@@ -33,7 +33,7 @@ All source files in /to/path:
     local function main()
         require("framework.init")
         local config = {appModuleName = "app"}
-        local app = require("framework.AppBase").new(config)
+        local app = require("framework.app").new(config)
         app:run()
     end
     
